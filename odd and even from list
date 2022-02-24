@@ -1,0 +1,16 @@
+#To find the even and odd numbers from the list
+x=int(input("Enter the size of list:"))
+l=[]
+for i in range(0,x):
+     k=int(input())
+     l.append(k)
+o=[]
+e=[]
+for i in l:
+     if i%2==0:
+          e.append(i)
+     else:
+         if i%2!=0:
+             o.append(i)
+
+print("The odd numbers from the list:",o,"\n","The even numbers from the list:",e)
